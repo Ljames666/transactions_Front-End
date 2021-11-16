@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #001631 url(../assets/tecnologia-no-setor-financeiro.jpg) no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+main {
+  height: 100vh;
+}
+
+.logo {
+  max-width: 70%;
+}
+.img-fluid {
+  max-width: 30%;
+}
+.height,
+#print,
+#printTransaction {
+  height: 82vh;
+}
+.bg-light {
+  opacity: 0.9;
+}
+.bg-opacity-blue {
+  background-color: #001631;
+  opacity: 0.9;
+  margin-bottom: -5%;
+}
+.blue {
+  background-color: #001631;
+}
+#formClient,
+#formTransaction {
+  display: none;
+}
+
+#login {
+  border-radius: 1rem;
+}
+#print,
+#printTransaction {
+  overflow-y: scroll;
+}

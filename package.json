@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": " ts-node-dev --respawn --transpile-only ./src/main.ts ",
-    "postinstall": " npx tsc ",
+    "postinstall": "npx tsc",
     "start": " node ./dist/main.ts "
   },
   "author": "Jamerson Paz",

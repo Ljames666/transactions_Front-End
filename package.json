@@ -1,7 +1,7 @@
 {
   "name": "transactions_front-end",
   "version": "1.0.0",
-  "description": "",
+  "description": "App desenvolvido como exercício de consumo de ApiRest para o Programa Stater Growdev 5ª Ed., a aplicativo conciste em um registro de entradas e saídas de transações finaceiras, com o calculo do saldo do usuário.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "sweetalert2": "^11.1.10",
-    "sweetalert2-react-content": "^4.2.0"
+    "sweetalert2-react-content": "^4.2.0",
+    "readme-md-generator": "^1.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",

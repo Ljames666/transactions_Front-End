@@ -1,14 +1,14 @@
 // import { validarUsuario } from "./util";
 const instance = axios.create({
-    baseURL: "https://growbank-api-backend.herokuapp.com",
+    baseURL: 'https://api-transactions-back-end.vercel.app',
 });
-const btnLogin = document.getElementById("_signIn");
+const btnLogin = document.getElementById('_signIn');
 
-btnLogin.addEventListener("click", () => {
-    const username = document.getElementById("inputUsername").value;
-    const password = document.getElementById("inputPassword").value;
+btnLogin.addEventListener('click', () => {
+    const username = document.getElementById('inputUsername').value;
+    const password = document.getElementById('inputPassword').value;
     instance
-        .get("/")
+        .get('/')
         .then((result) => {
             let database = result.data.employeesGrowBank;
 
@@ -49,8 +49,8 @@ function validarSenha(user, password) {
 function logIn(username, password, database) {
     if (!validarUsuario(username, database)) {
         return Swal.fire({
-            icon: "error",
-            title: "Erro :(",
+            icon: 'error',
+            title: 'Erro :(',
             text: `O usuário ${username} não foi encontrado`,
         });
     }
@@ -59,11 +59,11 @@ function logIn(username, password, database) {
 
     if (!validarSenha(user, password)) {
         return Swal.fire({
-            icon: "error",
-            title: "Erro :(",
+            icon: 'error',
+            title: 'Erro :(',
             text: `A senha  ${password} não está correta`,
         });
     }
 
-    window.location.href = "cadastros.html";
+    window.location.href = 'cadastros.html';
 }

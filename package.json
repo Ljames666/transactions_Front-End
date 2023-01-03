@@ -1,29 +1,29 @@
 {
-  "name": "transactions_front-end",
-  "version": "1.0.0",
-  "description": "App desenvolvido como exercício de consumo de ApiRest para o Programa Stater Growdev 5ª Ed., a aplicativo conciste em um registro de entradas e saídas de transações finaceiras, com o calculo do saldo do usuário.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/main.ts",
-    "postinstall": "npx tsc",
-    "start": "node ./dist/main.js"
-  },
-  "author": "Jamerson Paz",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.24.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "sweetalert2": "^11.1.10",
-    "sweetalert2-react-content": "^4.2.0",
-    "readme-md-generator": "^1.0.0"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.12",
-    "@types/express": "^4.17.13",
-    "@types/node": "^16.11.7",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.4.4"
-  }
+    "name": "transactions_front-end",
+    "version": "1.0.0",
+    "description": "App desenvolvido como exercício de consumo de ApiRest para o Programa Stater Growdev 5ª Ed., a aplicativo conciste em um registro de entradas e saídas de transações finaceiras, com o calculo do saldo do usuário.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "ts-node-dev --respawn --transpile-only ./src/main.ts",
+        "build": "npx tsc",
+        "start": "node ./dist/main.js"
+    },
+    "author": "Jamerson Paz",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "sweetalert2": "^11.1.10",
+        "sweetalert2-react-content": "^4.2.0",
+        "readme-md-generator": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.12",
+        "@types/express": "^4.17.13",
+        "@types/node": "^16.11.7",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.4.4"
+    }
 }
